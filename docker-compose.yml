@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  manuvolution:
+    image: manu/test
+    volumes:
+      - ./src:/app
+    container_name: manusite
+    restart: always
+    ports:
+      - "80:80"

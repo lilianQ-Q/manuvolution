@@ -1,6 +1,4 @@
 start:
-	@docker build -t test/oui .
-	@docker run -it -p 80:80 --rm test/oui
-
+	@docker-compose up -d
 stop: 
-	@docker container stop manuservv
+	@docker-compose down
