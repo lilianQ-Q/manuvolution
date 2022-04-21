@@ -519,7 +519,7 @@ html, body {
   background-color: #454545;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .navbar .logo {
     margin-left: 20px;
   }
